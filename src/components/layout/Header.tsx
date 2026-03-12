@@ -27,7 +27,7 @@ export const Header: React.FC = () => (
         <BackIcon />
       </button>
       <img
-        src="/SubMark Logo.png"
+        src={`${import.meta.env.BASE_URL}SubMark Logo.png`}
         alt="SubMark Logo"
         style={{ height: 32, objectFit: "contain" }}
       />
@@ -74,3 +74,4 @@ export const Header: React.FC = () => (
     </div>
   </div>
 );
+
