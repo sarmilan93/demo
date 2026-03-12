@@ -1,0 +1,412 @@
+{
+  "tabs": {
+    "acquisition": [
+      {
+        "key": "webSiteName",
+        "label": "Web Site Name",
+        "dataType": "string",
+        "required": true,
+        "readOnly": true,
+        "value": "Slov-Lex"
+      },
+      {
+        "key": "webSiteURL",
+        "label": "Web Site URL",
+        "dataType": "string",
+        "required": true,
+        "readOnly": true,
+        "value": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2025/27/vyhlasene_znenie"
+      },
+      {
+        "key": "createDate",
+        "label": "Create Date",
+        "dataType": "datetime",
+        "required": true,
+        "readOnly": true,
+        "value": ""
+      }
+    ],
+    "document": [
+      {
+        "key": "officialSourceName",
+        "label": "Official Source Name",
+        "dataType": "dropdown",
+        "required": true,
+        "readOnly": false,
+        "selectedValue": "Zbierka zákonov",
+        "options": [
+          "Zbierka zákonov",
+          "Ministerstvo zdravotnictví",
+          "Přehled předpisů živnostenského odboru MH",
+          "ZSP. - Zo súdnej praxe",
+          "Zbierka zákonov SNR",
+          "Vestník Ministerstva zdravotníctva SR",
+          "Zprávy Ministerstva financí České republiky pro finanční orgány obcí a krajů",
+          "Zpravodaj ČSÚ",
+          "Zprávy advokacie",
+          "Věstník Ministerstva životního prostředí",
+          "Přehled předpisů ze zahraničního obchodu",
+          "Nové zákony a nařízení ČSR",
+          "Zpravodaj pro mzdové účetní a personalisty",
+          "Věstník právních předpisů Zlínského kraje",
+          "Zpravodaj ČÚZK",
+          "Zpravodaj Jednoty českých právníků",
+          "Ministerstvo životního prostředí",
+          "Zodpovedná firma v praxi",
+          "Zdravotnické fórum",
+          "Ministerstvo zemědělství",
+          "Zbierka disciplinárnych rozhodnutí SAK",
+          "Věstník Ministerstva zdravotnictví",
+          "Zb.Us. - Zbierka nálezov a uznesení Úst. súdu SR",
+          "Zbierky stanovísk a rozhodnutí Najvyššieho správneho súdu SR ",
+          "Sbírka soudních rozhodnutí a stanovisek NS",
+          "Zdravotnictví a právo",
+          "Nejvyšší státní zastupitelství",
+          "Zdroj web"
+        ]
+      },
+      {
+        "key": "officialJournalNumber",
+        "label": "Official Journal Number",
+        "dataType": "string",
+        "required": true,
+        "readOnly": false,
+        "value": "17/2025"
+      },
+      {
+        "key": "legislator",
+        "label": "Legislator",
+        "dataType": "dropdown",
+        "required": true,
+        "readOnly": false,
+        "selectedValue": "Ministerstva spravodlivosti Slovenskej republiky",
+        "options": [
+          "Ministerstva spravodlivosti Slovenskej republiky",
+          "Tlačová agentúra SR",
+          "Konvalinková, Kateřina",
+          "Dudová, Iveta",
+          "Stanek, Vojtech",
+          "Polonyová, Simona",
+          "Čaplanová, Aneta",
+          "Vongrej, Marián",
+          "Tvorík, Ľubomír",
+          "Křenková, Vladimíra",
+          "Konopásková, Kateřina",
+          "Akritidu, Petra",
+          "Reháková, Petra",
+          "Syrový, Tomáš",
+          "Rychlík, Jan",
+          "Lada, Roman",
+          "Malein, N.",
+          "Odboru dopravy"
+        ]
+      }
+    ],
+    "legislation": [],
+    "conceptRecord": [
+      {
+        "key": "officialTitle",
+        "label": "Official Title",
+        "dataType": "string",
+        "required": true,
+        "readOnly": false,
+        "value": ""
+      },
+      {
+        "key": "legislationType",
+        "label": "Legislation Type",
+        "dataType": "dropdown",
+        "required": true,
+        "readOnly": false,
+        "selectedValue": "Vyhláška",
+        "options": [
+          "Vyhláška",
+          "Bula",
+          "Burzovní řád",
+          "Cenové rozhodnutí",
+          "Cenový předpis",
+          "Cenový výmer",
+          "Císařské nařízení",
+          "Císařský patent",
+          "Číselník",
+          "Dekret",
+          "Diplom císařský",
+          "Disciplinární řád",
+          "Dodatečná dohoda",
+          "Dodatečný zápis",
+          "Dodatek",
+          "Dodatková úmluva",
+          "Dodatkový akt",
+          "Dodatkový protokol",
+          "Dodatok",
+          "Dohoda"
+        ]
+      },
+      {
+        "key": "effectiveDate",
+        "label": "Effective Date",
+        "dataType": "date",
+        "required": false,
+        "readOnly": false,
+        "value": "01/03/2025"
+      },
+      {
+        "key": "publicationDate",
+        "label": "Publication Date",
+        "dataType": "date",
+        "required": true,
+        "readOnly": false,
+        "value": "20/02/2025"
+      },
+      {
+        "key": "expiryDate",
+        "label": "Expiry date",
+        "dataType": "date",
+        "required": false,
+        "readOnly": false,
+        "value": "31/12/9999"
+      },
+      {
+        "key": "promulgationDate",
+        "label": "Promulgation Date",
+        "dataType": "date",
+        "required": false,
+        "readOnly": false,
+        "value": "2/6/2025"
+      },
+      {
+        "key": "editorialShortTitle",
+        "label": "Editorial Short Title",
+        "dataType": "string",
+        "required": true,
+        "readOnly": false,
+        "value": ""
+      },
+      {
+        "key": "officialJournalPage",
+        "label": "Official Journal Page",
+        "dataType": "string",
+        "required": true,
+        "readOnly": false,
+        "value": "17/2025"
+      },
+      {
+        "key": "officialActNumber",
+        "label": "Official act number",
+        "dataType": "string",
+        "required": false,
+        "readOnly": false,
+        "value": "27/2025 Z.z."
+      },
+      {
+        "key": "pure",
+        "label": "Pure",
+        "dataType": "dropdown",
+        "required": true,
+        "readOnly": false,
+        "selectedValue": "P",
+        "options": [
+          "P",
+          "R",
+          "U",
+          "S",
+          "O",
+          "K"
+        ]
+      },
+      {
+        "key": "editorialAbbreviation",
+        "label": "Editorial Abbreviation",
+        "dataType": "string",
+        "required": false,
+        "readOnly": false,
+        "value": ""
+      },
+      {
+        "key": "area",
+        "label": "Area",
+        "dataType": "dropdown",
+        "required": true,
+        "readOnly": false,
+        "selectedValue": "",
+        "options": [
+          "Európska spoločnosť",
+          "Predbežná otázka SDEÚ (okrem ČR a SR)",
+          "Predbežná otázka SDEÚ (Slovenská republika)",
+          "Predbežná otázka SDEÚ (Česká republika)",
+          "Súdny dvor Európskej únie. Súd prvej inštancie",
+          "Evrópsky parlament",
+          "Európske dohody. Európske zmluvy",
+          "EURÓPSKA ÚNIA (EÚ). ZÁPADOEURÓPSKA ÚNIA.",
+          "STREDOEURÓPSKA DOHODA O VOĽNOM OBCHODE",
+          "EURÓPSKE ZDRUŽENIE VOĽNÉHO OBCHODU (EZVO)",
+          "SVETOVÁ OBCHODNÁ ORGANIZÁCIA (WTO)",
+          "RVHP. RADA VZÁJOMNEJ HOSPODÁRSKEJ POMOCI",
+          "Mnohostranná agentúra pre investičné záruky",
+          "OECD. Organizácia pre európsku spoluprácu a rozvoj",
+          "Medzinárodné združenie pre rozvoj",
+          "Medzinárodná finančná korporácia",
+          "Európska investičná banka"
+        ]
+      },
+      {
+        "key": "index",
+        "label": "Index",
+        "dataType": "dropdown",
+        "required": true,
+        "readOnly": false,
+        "selectedValue": "",
+        "options": [
+          "Jednotné mesačné hlásenie zamestnávateľa",
+          "Dorovnávacia daň",
+          "Verejné kultúrne inštitúcie",
+          "Flexinovela",
+          "AI (umelá inteligencia)",
+          "Materská spoločnosť",
+          "Spoločenstvo obcí",
+          "Reorganizácia",
+          "Správa o daniach z príjmov",
+          "Správa o udržateľnosti",
+          "Elektronická identifikácia osôb",
+          "ESG",
+          "Fikcia doručenia",
+          "Kryptomena",
+          "Osobný daňový účet",
+          "Bezdlžnosť"
+        ]
+      },
+      {
+        "key": "expandScope",
+        "label": "Expand. scope",
+        "dataType": "dropdown",
+        "required": false,
+        "readOnly": false,
+        "selectedValue": "",
+        "options": []
+      },
+      {
+        "key": "technicalNote",
+        "label": "Technical Note",
+        "dataType": "string",
+        "required": false,
+        "readOnly": false,
+        "value": ""
+      },
+      {
+        "key": "territorialApplication",
+        "label": "Territorial application",
+        "dataType": "dropdown",
+        "required": false,
+        "readOnly": false,
+        "selectedValue": "S",
+        "options": ["S"]
+      },
+      {
+        "key": "publicationNote",
+        "label": "Publication note",
+        "dataType": "string",
+        "required": false,
+        "readOnly": false,
+        "value": ""
+      },
+      {
+        "key": "hiddenAlternativeTitles",
+        "label": "Hidden alternative titles",
+        "dataType": "string",
+        "required": false,
+        "readOnly": false,
+        "value": ""
+      }
+    ],
+    "relationalMetadata": [
+      {
+        "key": "parent",
+        "label": "Parent",
+        "dataType": "string",
+        "required": true,
+        "readOnly": false,
+        "value": "73/1998 Z.z. §129"
+      },
+      {
+        "key": "relation",
+        "label": "Relation",
+        "dataType": "string",
+        "required": false,
+        "readOnly": false,
+        "value": ""
+      },
+      {
+        "key": "executiveOrder",
+        "label": "Executive Order",
+        "dataType": "string",
+        "required": false,
+        "readOnly": false,
+        "value": ""
+      },
+      {
+        "key": "transpositionRelation",
+        "label": "Transposition Relation",
+        "dataType": "string",
+        "required": false,
+        "readOnly": false,
+        "value": ""
+      },
+      {
+        "key": "replacementRelation",
+        "label": "Replacement Relation",
+        "dataType": "string",
+        "required": false,
+        "readOnly": false,
+        "value": ""
+      },
+      {
+        "key": "amendmentRelation",
+        "label": "Amendment Relation",
+        "dataType": "string",
+        "required": false,
+        "readOnly": false,
+        "value": ""
+      },
+      {
+        "key": "amendment",
+        "label": "Amendment",
+        "dataType": "string",
+        "required": true,
+        "readOnly": false,
+        "value": ""
+      }
+    ]
+  },
+  "searchMappings": {
+    "relationSearchFields": [
+      "parent",
+      "relation",
+      "executiveOrder",
+      "transpositionRelation",
+      "replacementRelation",
+      "amendmentRelation"
+    ],
+    "amendmentSearchFields": []
+  },
+  "validationRules": {
+    "requiredOnSubmit": [
+      "webSiteName",
+      "webSiteURL",
+      "createDate",
+      "officialSourceName",
+      "officialJournalNumber",
+      "legislator",
+      "officialTitle",
+      "legislationType",
+      "publicationDate",
+      "editorialShortTitle",
+      "officialJournalPage",
+      "pure",
+      "area",
+      "index",
+      "parent",
+      "amendment"
+    ],
+    "readOnlyFields": ["webSiteName", "webSiteURL", "createDate"]
+  }
+}

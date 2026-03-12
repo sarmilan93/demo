@@ -1,0 +1,22 @@
+export const COLORS = {
+  primary: "#1B3A5C",
+  primaryHover: "#234B73",
+  primaryLight: "#2A5A8C",
+  white: "#FFFFFF",
+  background: "#F5F7FA",
+  border: "#E0E4E8",
+  text: "#1A1A2E",
+  textSecondary: "#6B7280",
+  textMuted: "#9CA3AF",
+  error: "#DC2626",
+  inputBorder: "#D1D5DB",
+  inputFocus: "#1B3A5C",
+  readOnlyBackground: "#F9FAFB",
+  toolbarBackground: "#3B3F43",
+  toolbarItem: "#4A4E52",
+  viewerBackground: "#525659",
+  cardBackground: "#F8FAFC",
+  sectionBorder: "#E8ECF0",
+  mainBackground: "#F1F5F9",
+  ignored: "#FAFAFA"
+} as const;
