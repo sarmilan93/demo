@@ -13,10 +13,11 @@ export const DocumentViewer: React.FC = () => {
       }}
     >
       <iframe
-        src="/2025_027.pdf"
+        src={`${import.meta.env.BASE_URL}2025_027.pdf`}
         title="Source Document"
         style={{ width: "100%", height: "95%", border: "none" }}
       />
     </div>
   );
 };
+
